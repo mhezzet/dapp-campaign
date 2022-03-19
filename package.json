@@ -1,0 +1,16 @@
+{
+  "name": "dapp-campaign",
+  "version": "1.0.0",
+  "scripts": {
+    "compile:contract": "npm run compile -w contract",
+    "deploy:contract": "npm run deploy -w contract",
+    "test:contract": "npm test -w contract",
+    "test:contract:watch": "npm run test:watch -w contract"
+  },
+  "author": "mhezzet",
+  "license": "ISC",
+  "workspaces": [
+    "client",
+    "contract"
+  ]
+}

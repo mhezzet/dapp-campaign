@@ -1,0 +1,24 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "main": "./src/compile.js",
+  "scripts": {
+    "compile": "node ./src/compile",
+    "deploy": "node ./src/deploy",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "dotenv-safe": "^8.2.0",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "ganache": "^7.0.3",
+    "solc": "^0.8.12",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  },
+  "author": "mhezzet",
+  "license": "ISC"
+}
