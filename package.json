@@ -5,7 +5,10 @@
     "compile:contract": "npm run compile -w contract",
     "deploy:contract": "npm run deploy -w contract",
     "test:contract": "npm test -w contract",
-    "test:contract:watch": "npm run test:watch -w contract"
+    "test:contract:watch": "npm run test:watch -w contract",
+    "dev:client": "npm run dev -w client",
+    "build:client": "npm run build -w client",
+    "start:client": "npm run start -w client"
   },
   "author": "mhezzet",
   "license": "ISC",
